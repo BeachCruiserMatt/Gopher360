@@ -17,7 +17,7 @@ Compatible Controllers
 * [A decently long MicroUSB cable](https://www.amazon.com/Charger-Durable-Charging-Smartphones-Motorola/dp/B06XZTK2JL/) will be needed for comfortable direct wired mode usage. This is the cheapest option if you already have the controller and no Bluetooth antenna!
 
 ### DualShock
-DualShock controllers are great, but you NEED to emulate Xinput for Gopher to see and understand them. Fortunately, Xinput emulation is a very popular thing, as there are just as many people with DualShock controllers as there are Xbox controllers. Listings coming soon.
+DualShock controllers are great, but you need to emulate Xinput for Gopher to see and understand. Fortunately, Xinput emulation is a very popular thing, as there are just as many people with DualShock controllers as there are Xbox controllers.
 
 ### Third party
 Steelseries controller running on Dell G3 laptop works August 2020 Windows 10. Some third party controllers will most likely work as well.   I haven't seen one not work, but I'd imagine some wouldn't. Research before buying, Gopher expects native Xinput devices, so the controller should as well. 
