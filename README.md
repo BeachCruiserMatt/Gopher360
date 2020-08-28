@@ -3,11 +3,6 @@ Download
 
 [![Github All Releases](https://img.shields.io/github/downloads/Tylemagne/Gopher360/total.svg?style=flat&label=Download%20Gopher360%20Standalone&logo=appveyor&colorA=00cc0a&colorB=000000)](https://github.com/Tylemagne/Gopher360/releases/download/v0.989/Gopher.exe)
 
-Donate
-======
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ETDWNUEJG2UY2)
-
 Compatible Controllers
 ======
 ### Xbox 360
@@ -25,12 +20,8 @@ Compatible Controllers
 DualShock controllers are great, but you NEED to emulate Xinput for Gopher to see and understand them. Fortunately, Xinput emulation is a very popular thing, as there are just as many people with DualShock controllers as there are Xbox controllers. Listings coming soon.
 
 ### Third party
-SOME third party controllers will most likely work as well. I haven't seen one not work, but I'd imagine some wouldn't. Research before buying, Gopher expects native Xinput devices, so the controller should as well. I won't be listing any for now until I know what ones will work. If I can find one that does the job and saves you from Microsoft's extreme profit margins, I'll list it.
+Steelseries controller running on Dell G3 laptop works August 2020 Windows 10. Some third party controllers will most likely work as well.   I haven't seen one not work, but I'd imagine some wouldn't. Research before buying, Gopher expects native Xinput devices, so the controller should as well. 
 
-Feedback
-======
-
-[![Static](https://img.shields.io/badge/Feedback%20Survey-03-blue.svg?logo=eclipse)](https://docs.google.com/forms/d/e/1FAIpQLScbsasEPPPLY0utFSnowtZFAr_O60hAHvrLt7_wEHZ3pzY9AA/viewform)
 
 Table of contents
 =================
@@ -66,11 +57,11 @@ Gopher separates itself from the competition by being efficient, small, portable
 
 Requirements
 ======
-Gopher is incredibly great at being a standalone program, but with one major exception: it absolutely needs Visual C++ 2015 Runtimes to be installed. If you have run Windows Updates at least once in the lifetime of your computer, this really won't be an issue.
+Gopher is good at being a standalone program. Gopher needs Visual C++ 2015 runtime. 
 
 Using DualShock Controllers
 ======
-DualShock controllers don't use typical xinput libraries like the X360 and Xbone controllers do, so you'll need something like InputMapper, SCP, DS4Windows, or DS3Tool to "emulate" an xinput device in order to get xinput-using applications like Gopher360 to understand it. Gopher360 DOES NOT automatically offer these emulation layers ( yet ;) ), so you'll need to use something to emulate it before Gopher can understand it.
+DualShock controllers don't use typical xinput libraries like the X360 and Xbone controllers do. You will need something like InputMapper, SCP, DS4Windows, or DS3Tool to emulate an xinput device in order to get xinput-using applications like Gopher360 to understand it. Gopher360 does not automatically offer these emulation layers so you'll need to use something to emulate it before Gopher can understand it.
 
 Video Demonstration
 ======
@@ -86,7 +77,7 @@ Download Instructions
 ======
 Download the latest release here: https://github.com/irungentoo/Gopher360/releases
 
-I recommend that you copy it somewhere outside of the ZIP and make a shortcut to it. Adding it to your startup folder in your HTPC can make bootups a lot more convenient!
+I recommend that you copy it somewhere outside of the ZIP and make a shortcut to it. 
 
 Default Controls
 ======
