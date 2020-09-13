@@ -20,7 +20,7 @@ Compatible Controllers
 DualShock controllers are great, but you need to emulate Xinput for Gopher to see and understand. Fortunately, Xinput emulation is a very popular thing, as there are just as many people with DualShock controllers as there are Xbox controllers.
 
 ### Third party
-Steelseries controller running on Dell G3 laptop works August 2020 Windows 10. Some third party controllers will most likely work as well.   I haven't seen one not work, but I'd imagine some wouldn't. Research before buying, Gopher expects native Xinput devices, so the controller should as well. 
+Steelseries controller running on Dell G3 laptop works August 2020 Windows 10. Some third party controllers will most likely work as well.   I haven't seen one not work. 
 
 
 Table of contents
@@ -58,20 +58,6 @@ Gopher separates itself from the competition by being efficient, small, portable
 Requirements
 ======
 Gopher is good at being a standalone program. Gopher needs Visual C++ 2015 runtime. 
-
-Using DualShock Controllers
-======
-DualShock controllers don't use typical xinput libraries like the X360 and Xbone controllers do. You will need something like InputMapper, SCP, DS4Windows, or DS3Tool to emulate an xinput device in order to get xinput-using applications like Gopher360 to understand it. Gopher360 does not automatically offer these emulation layers so you'll need to use something to emulate it before Gopher can understand it.
-
-Video Demonstration
-======
-
-https://vine.co/v/MYadBgWXuWY
-
-[![Gopher Video 1](http://img.youtube.com/vi/UWYUodeontM/0.jpg)](https://www.youtube.com/watch?v=UWYUodeontM)
-
-[![Gopher Video 2](http://img.youtube.com/vi/8APmA1ohPdM/0.jpg)](https://www.youtube.com/watch?v=8APmA1ohPdM)
-
 
 Download Instructions
 ======
@@ -158,4 +144,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 
 
-![Controller GIF](https://thumbs.gfycat.com/ElasticUnrulyBighorn-max-1mb.gif)
+
