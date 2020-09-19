@@ -1,14 +1,14 @@
-Here is new version that:
+This version:
 
 1. Slow down mouse move.
 2. Upgrade to Visual Studio 2019
 
-https://github.com/BeachCruiserMatt/Gopher360/tree/master/Windows/Release
+
 
 
 Download
 ======
-
+https://github.com/BeachCruiserMatt/Gopher360/tree/master/Windows/Release
 
 
 Compatible Controllers
@@ -51,12 +51,11 @@ Gopher is a utility for couch-oriented PC users that wish to entirely control th
 
 Gopher separates itself from the competition by being efficient, small, portable, free, and fully open. If you have something you'd like to see improved, added, or changed, please fill out the survey.
 
-[![Github Releases (by Release)](https://github.com/BeachCruiserMatt/Gopher360/tree/master/Windows/Release)]()
 
 
 Requirements
 ======
-Gopher needs Visual C++ runtime. 
+Gopher needs C++ runtime. 
 
 Download Instructions
 ======
