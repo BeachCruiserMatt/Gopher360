@@ -1,7 +1,15 @@
+Here is new version that:
+
+1. Slow down mouse move.
+2. Upgrade to Visual Studio 2019
+
+https://github.com/BeachCruiserMatt/Gopher360/tree/master/Windows/Release
+
+
 Download
 ======
 
-[![Github All Releases](https://img.shields.io/github/downloads/Tylemagne/Gopher360/total.svg?style=flat&label=Download%20Gopher360%20Standalone&logo=appveyor&colorA=00cc0a&colorB=000000)](https://github.com/Tylemagne/Gopher360/releases/download/v0.989/Gopher.exe)
+
 
 Compatible Controllers
 ======
@@ -20,7 +28,7 @@ Compatible Controllers
 DualShock controllers are great, but you need to emulate Xinput for Gopher to see and understand. Fortunately, Xinput emulation is a very popular thing, as there are just as many people with DualShock controllers as there are Xbox controllers.
 
 ### Third party
-Steelseries controller running on Dell G3 laptop works August 2020 Windows 10. Some third party controllers will most likely work as well.   I haven't seen one not work. 
+Steelseries controller running on Dell G3 laptop works August 2020 Windows 10. Some third party controllers will most likely work as well.  
 
 
 Table of contents
@@ -39,31 +47,21 @@ Table of contents
 About Gopher
 ======
 
-Gopher is a utility for couch-oriented PC users that wish to entirely control their PC from the couch with a controller. Gopher works by transforming Xbox (or PlayStation, if using DS3Tool) controller input into traditional keyboard and mouse input that many applications and games still completely rely on with no controller-based alternative input options. The analog sticks move the mouse, the buttons click - it's very simple. Gopher completely skips this requirement and brings controller compatibility to ALL your applications and MOST of your games. Games like Runescape will be just fine. Crysis? Maybe not so much. It all depends on what amount of traditional input the game requires. Gopher is an excellent tool for PC gaming from the couch, as it's fully capable of web browsing, playing mouse-based games, controlling media players, and launching emulators. Don't stand up and waste calories, just download Gopher!
+Gopher is a utility for couch-oriented PC users that wish to entirely control their PC from the couch with a controller. Gopher works by transforming Xbox (or PlayStation, if using DS3Tool) controller input into traditional keyboard and mouse input that many applications and games still completely rely on with no controller-based alternative input options. The analog sticks move the mouse, the buttons click - it's very simple. Gopher completely skips this requirement and brings controller compatibility to ALL your applications and MOST of your games. Games like Runescape will be just fine. It all depends on what amount of traditional input the game requires. Gopher is an excellent tool for PC gaming from the couch, as it's fully capable of web browsing, playing mouse-based games, controlling media players, and launching emulators. Don't stand up and waste calories, just download Gopher!
 
 Gopher separates itself from the competition by being efficient, small, portable, free, and fully open. If you have something you'd like to see improved, added, or changed, please fill out the survey.
 
-[![Github Releases (by Release)](https://img.shields.io/github/downloads/Tylemagne/Gopher360/v0.989/total.svg)]()
+[![Github Releases (by Release)](https://github.com/BeachCruiserMatt/Gopher360/tree/master/Windows/Release)]()
 
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Tylemagne/Gopher360.svg)]()
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/Tylemagne/gopher360.svg)]()
-
-[![GitHub top language](https://img.shields.io/github/languages/top/Tylemagne/gopher360.svg)]()
-
-[![GitHub release](https://img.shields.io/github/release/Tylemagne/gopher360.svg)]()
-
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/Tylemagne/gopher360/latest.svg)]()
 
 Requirements
 ======
-Gopher is good at being a standalone program. Gopher needs Visual C++ 2015 runtime. 
+Gopher needs Visual C++ runtime. 
 
 Download Instructions
 ======
-Download the latest release here: https://github.com/irungentoo/Gopher360/releases
+Download the latest release here: https://github.com/BeachCruiserMatt/Gopher360/tree/master/Windows/Release
 
-I recommend that you copy it somewhere outside of the ZIP and make a shortcut to it. 
 
 Default Controls
 ======
@@ -131,11 +129,11 @@ More instruction in the configuration file.
 
 Build Instructions
 ======
-Building is pretty straightforward, but you may get a "missing win32 include" error due to the solution targetting. Simply follow the instructions the error provides (Project -> Retarget solution) to ensure your project has a working link to the libraries it needs.
+If you get missing windows.h error, you may need to (right click Solution -> Retarget solution).
 
 License
 ======
-Gopher free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Gopher is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
