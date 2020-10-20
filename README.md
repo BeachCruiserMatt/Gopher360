@@ -28,7 +28,7 @@ Compatible Controllers
 DualShock controllers are great, but you need to emulate Xinput for Gopher to see and understand. Fortunately, Xinput emulation is a very popular thing, as there are just as many people with DualShock controllers as there are Xbox controllers.
 
 ### Third party
-Steelseries controller running on Dell G3 laptop works August 2020 Windows 10. Some third party controllers will most likely work as well.  
+Third party controllers will most likely work as well.  
 
 
 Table of contents
